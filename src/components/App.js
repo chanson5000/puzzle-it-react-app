@@ -22,6 +22,7 @@ export const App = () => {
         <div className='App'>
             <div className='App-header'>
                 <h1>Puzzle It</h1>
+                <h2>Be Puzzled!</h2>
                 <select defaultValue={picture} onChange={handleSelect}>
                     {pictureList.map(o => (<option key={o} value={o}>{o}</option>))}
                 </select>
